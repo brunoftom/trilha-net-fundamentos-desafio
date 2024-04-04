@@ -44,7 +44,8 @@ while (exibirMenu)
             break;
 
         case "4":
-            exibirMenu = false;
+            Console.WriteLine("\nFinalizando o programa!!\n");
+            Environment.Exit(0);
             break;
 
         default:
@@ -55,5 +56,3 @@ while (exibirMenu)
     Console.WriteLine("Pressione uma tecla para continuar");
     Console.ReadLine();
 }
-
-Console.WriteLine("O programa se encerrou");
